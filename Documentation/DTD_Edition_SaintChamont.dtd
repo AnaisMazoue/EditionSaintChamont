@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY cardinal "<choice><abbr>Card.al</abbr><expan>cardinal</expan></choice>" >
+<!ENTITY cardinaux "<choice><abbr>Card.aux</abbr><expan>cardinaux</expan></choice>" >
+<!ENTITY College "<choice><abbr>Colege</abbr><expan>Collège</expan></choice>" >
+<!ENTITY congregation "<choice><abbr>congrega.on</abbr><expan>congrégation</expan></choice>" >
+<!ENTITY Congregation "<choice><abbr>Congrega.on</abbr><expan>congrégation</expan></choice>" >
+<!ENTITY diner "<choice><orig>disnée</orig><reg>dîner</reg></choice>" >
+<!ENTITY dudit "<choice><orig>dud.</orig><reg>dudit</reg></choice>" >
+<!ENTITY general "<choice><abbr>gnal</abbr><expan>général</expan></choice>" >
+<!ENTITY independant "<choice><orig>Independa.t</orig><reg>indépendant</reg></choice>" >
+<!ENTITY Majesté "<choice><abbr>Ma.té</abbr><expan>Majesté</expan></choice>" >
+<!ENTITY ordinaire "<choice><abbr>ord.re</abbr><expan>ordinaire</expan></choice>" >
+<!ENTITY ordinaires "<choice><abbr>ord.res</abbr><expan>ordinaires</expan></choice>" >
+<!ENTITY que "<choice><abbr> q.l</abbr><expan>que</expan></choice>" >
+<!ENTITY quil "<choice><abbr> q.l</abbr><expan>qu'il</expan></choice>" >
+<!ENTITY Saint "<choice><abbr>St</abbr><expan>Saint</expan></choice>" >
+<!ENTITY Sainte "<choice><abbr>Ste</abbr><expan>Sainte</expan></choice>" >
+<!ENTITY satisfaction "<choice><abbr>satisfac.on</abbr><expan>satisfaction</expan></choice>" >
+<!ENTITY sieur "<choice><abbr> s.r</abbr><expan>sieur</expan></choice>" >
+<!ENTITY Sieur "<choice><abbr> S.r</abbr><expan>sieur</expan></choice>" >
+
+<!ENTITY apost "<choice><orig></orig><reg>’</reg></choice>" >
+<!ENTITY espace "<choice><orig></orig><reg> </reg></choice>" >
+<!ENTITY espacesuppr "<choice><orig> </orig><reg></reg></choice>" >
+<!ENTITY virgule "<choice><orig> </orig><reg>, </reg></choice>" >
+
+<!ENTITY à "<choice><orig>a</orig><reg>à </reg></choice>" >
+<!ENTITY À "<choice><orig>A</orig><reg>À</reg></choice>" >
+<!ENTITY é "<choice><orig>e</orig><reg>é</reg></choice>" >
+<!ENTITY Eé "<choice><orig>E</orig><reg>é</reg></choice>" >
+<!ENTITY É "<choice><orig>E</orig><reg>É</reg></choice>" >
+<!ENTITY EÉ "<choice><orig>E</orig><reg>É</reg></choice>" >
+<!ENTITY è "<choice><orig>e</orig><reg>è</reg></choice>" >
+<!ENTITY ê "<choice><orig>e</orig><reg>ê</reg></choice>" >
+<!ENTITY éê "<choice><orig>é</orig><reg>ê</reg></choice>" >
+<!ENTITY ù "<choice><orig>u</orig><reg>ù</reg></choice>" >
+
+<!ENTITY asâ "<choice><orig>as</orig><reg>â</reg></choice>" >
+<!ENTITY esé "<choice><orig>es</orig><reg>é</reg></choice>" >
+<!ENTITY EsÉ "<choice><orig>Es</orig><reg>É</reg></choice>" >
+<!ENTITY esê "<choice><orig>es</orig><reg>ê</reg></choice>" >
+<!ENTITY ezés "<choice><orig>ez</orig><reg>és</reg></choice>" >
+<!ENTITY ézés "<choice><orig>éz</orig><reg>és</reg></choice>" >
+<!ENTITY isî "<choice><orig>is</orig><reg>î</reg></choice>" >
+<!ENTITY osô "<choice><orig>os</orig><reg>ô</reg></choice>" >
+<!ENTITY usû "<choice><orig>us</orig><reg>û</reg></choice>" >
+
+<!ENTITY ij "<choice><orig>i</orig><reg>j</reg></choice>" >
+<!ENTITY iJ "<choice><orig>i</orig><reg>J</reg></choice>" >
+<!ENTITY IJ "<choice><orig>I</orig><reg>J</reg></choice>" >
+
+<!ENTITY uv "<choice><orig>u</orig><reg>v</reg></choice>" >
+
+<!ENTITY ae "<choice><orig>a</orig><reg>e</reg></choice>" >
+<!ENTITY eû "<choice><orig>eu</orig><reg>û</reg></choice>" >
+<!ENTITY oa "<choice><orig>o</orig><reg>a</reg></choice>" >
+<!ENTITY sc "<choice><orig>sç</orig><reg>s</reg></choice>" >
+<!ENTITY st "<choice><orig>sç</orig><reg>t</reg></choice>" >
+<!ENTITY tc "<choice><orig>t</orig><reg>c</reg></choice>" >
+<!ENTITY yi "<choice><orig>y</orig><reg>i</reg></choice>" >
+<!ENTITY zs "<choice><orig>z</orig><reg>s</reg></choice>" >
+
+<!ENTITY addm "<choice><orig>m</orig><reg>mm</reg></choice>" >
+<!ENTITY addp "<choice><orig>p</orig><reg>pp</reg></choice>" >
+<!ENTITY adds "<choice><orig>s</orig><reg>ss</reg></choice>" >
+<!ENTITY addt "<choice><orig></orig><reg>t</reg></choice>" >
+
+<!ENTITY suppc "<choice><orig>c</orig><reg></reg></choice>" >
+<!ENTITY suppd "<choice><orig>d</orig><reg></reg></choice>" >
+<!ENTITY suppe "<choice><orig>e</orig><reg></reg></choice>" >
+<!ENTITY suppf "<choice><orig>f</orig><reg></reg></choice>" >
+<!ENTITY suppl "<choice><orig>l</orig><reg></reg></choice>" >
+<!ENTITY supps "<choice><orig>s</orig><reg></reg></choice>" >
+<!ENTITY suppt "<choice><orig>t</orig><reg></reg></choice>" >
+<!ENTITY suppst "<choice><orig>st</orig><reg> </reg></choice>" >
+
+
+<!ENTITY aA "<choice><orig>a</orig><reg>A</reg></choice>" >
+<!ENTITY bB "<choice><orig>b</orig><reg>B</reg></choice>" >
+<!ENTITY cC "<choice><orig>c</orig><reg>C</reg></choice>" >
+<!ENTITY dD "<choice><orig>d</orig><reg>D</reg></choice>" >
+<!ENTITY eE "<choice><orig>e</orig><reg>E</reg></choice>" >
+<!ENTITY fF "<choice><orig>f</orig><reg>F</reg></choice>" >
+<!ENTITY gG "<choice><orig>g</orig><reg>G</reg></choice>" >
+<!ENTITY hH "<choice><orig>h</orig><reg>H</reg></choice>" >
+<!ENTITY iI "<choice><orig>i</orig><reg>I</reg></choice>" >
+<!ENTITY jJ "<choice><orig>j</orig><reg>J</reg></choice>" >
+<!ENTITY kK "<choice><orig>k</orig><reg>K</reg></choice>" >
+<!ENTITY lL "<choice><orig>l</orig><reg>L</reg></choice>" >
+<!ENTITY mM "<choice><orig>m</orig><reg>M</reg></choice>" >
+<!ENTITY nN "<choice><orig>n</orig><reg>N</reg></choice>" >
+<!ENTITY oO "<choice><orig>o</orig><reg>O</reg></choice>" >
+<!ENTITY pP "<choice><orig>p</orig><reg>P</reg></choice>" >
+<!ENTITY qQ "<choice><orig>q</orig><reg>Q</reg></choice>" >
+<!ENTITY rR "<choice><orig>r</orig><reg>R</reg></choice>" >
+<!ENTITY sS "<choice><orig>s</orig><reg>S</reg></choice>" >
+<!ENTITY tT "<choice><orig>t</orig><reg>T</reg></choice>" >
+<!ENTITY uU "<choice><orig>u</orig><reg>U</reg></choice>" >
+<!ENTITY vV "<choice><orig>v</orig><reg>V</reg></choice>" >
+<!ENTITY wW "<choice><orig>w</orig><reg>W</reg></choice>" >
+<!ENTITY xX "<choice><orig>x</orig><reg>X</reg></choice>" >
+<!ENTITY yY "<choice><orig>y</orig><reg>Y</reg></choice>" >
+<!ENTITY zZ "<choice><orig>z</orig><reg>Z</reg></choice>" >
+
+<!ENTITY Aa "<choice><orig>A</orig><reg>a</reg></choice>" >
+<!ENTITY Bb "<choice><orig>B</orig><reg>b</reg></choice>" >
+<!ENTITY Cc "<choice><orig>C</orig><reg>c</reg></choice>" >
+<!ENTITY Dd "<choice><orig>D</orig><reg>d</reg></choice>" >
+<!ENTITY Ee "<choice><orig>E</orig><reg>e</reg></choice>" >
+<!ENTITY Eé "<choice><orig>E</orig><reg>é</reg></choice>" >
+<!ENTITY Ff "<choice><orig>F</orig><reg>f</reg></choice>" >
+<!ENTITY Gg "<choice><orig>G</orig><reg>g</reg></choice>" >
+<!ENTITY Hh "<choice><orig>H</orig><reg>h</reg></choice>" >
+<!ENTITY Ii "<choice><orig>I</orig><reg>i</reg></choice>" >
+<!ENTITY Jj "<choice><orig>J</orig><reg>j</reg></choice>" >
+<!ENTITY Kk "<choice><orig>K</orig><reg>l</reg></choice>" >
+<!ENTITY Ll "<choice><orig>L</orig><reg>l</reg></choice>" >
+<!ENTITY Mm "<choice><orig>M</orig><reg>m</reg></choice>" >
+<!ENTITY Nn "<choice><orig>N</orig><reg>n</reg></choice>" >
+<!ENTITY Oo "<choice><orig>O</orig><reg>o</reg></choice>" >
+<!ENTITY Pp "<choice><orig>P</orig><reg>p</reg></choice>" >
+<!ENTITY Qq "<choice><orig>Q</orig><reg>q</reg></choice>" >
+<!ENTITY Rr "<choice><orig>R</orig><reg>r</reg></choice>" >
+<!ENTITY Ss "<choice><orig>S</orig><reg>s</reg></choice>" >
+<!ENTITY Tt "<choice><orig>T</orig><reg>t</reg></choice>" >
+<!ENTITY Uu "<choice><orig>U</orig><reg>u</reg></choice>" >
+<!ENTITY Vv "<choice><orig>V</orig><reg>v</reg></choice>" >
+<!ENTITY Ww "<choice><orig>W</orig><reg>w</reg></choice>" >
+<!ENTITY Xx "<choice><orig>X</orig><reg>x</reg></choice>" >
+<!ENTITY Yy "<choice><orig>Y</orig><reg>y</reg></choice>" >
+<!ENTITY Zz "<choice><orig>Z</orig><reg>z</reg></choice>" >

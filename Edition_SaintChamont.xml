@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "DTD_Edition_SaintChamont.dtd">
+<?xml-model href="ODDEdition_SaintChamont.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODDEdition_SaintChamont.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Negociation de M. le Marquis de St Chamont ambassadeur pour le Roy a Rome
+                    depuis le mois de juillet 1644 jusques a la fin de cette année</title>
+            </titleStmt>
+
+            <editionStmt>
+                <edition>Évaluation XSLT - École nationale des chartes - <date when-iso="2022-04"
+                        >Avril 2022</date>
+                </edition>
+                <respStmt>
+                    <resp>Transcription et encodage du manuscrit</resp>
+                    <persName xml:id="AM">
+                        <forename>Anaïs</forename>
+                        <surname>Mazoué</surname>
+                    </persName>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <!-- En admettant que cet encodage des Négociations du Marquis de Saint Chamont soit publié sur Élec sous licence CC Share-Alike -->
+                <publisher>Éditions en ligne de l’école des chartes</publisher>
+                <pubPlace>Paris</pubPlace>
+                <date when-iso="2022-02">Février 2022</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/3.0/deed.fr">Licence
+                        Creative Commons Attribution-partage dans les mêmes conditions</licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc xml:id="ms16070">
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Département des manuscrits</repository>
+                        <idno>Français 16070</idno>
+                        <altIdentifier>
+                            <idno>Saint-Germain français 7373</idno>
+                            <note>Ancienne cote</note>
+                        </altIdentifier>
+                        <altIdentifier>
+                            <idno>ark:/12148/btv1b9061223z</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <head>
+                        <title>Relations des « négociations de M. le marquis de Saint-Chamont,
+                            ambassadeur extraordinaire pour le Roy à Rome, de monsieur le cardinal
+                            Bichi et de M. de Gremonville, ambassadeurs de Sa Majesté vers les
+                            princes d'Italie, pendant leur résidence à Rome ; sçavoir celle de M. de
+                            Saint-Chamont depuis le mois de juillet 1644 jusqu'à la fin de la mesme
+                            année, et celle de Mrs le cardinal Bichi et de Gremonville durant les
+                            six premiers mois de l'année 1645 ; le tout extraict des originaux de
+                            leurs depesches escrittes au Roy et à Mrs ses ministres ».</title>
+                        <origDate>Août 1644</origDate>
+                    </head>
+
+                    <msContents>
+                        <summary>
+                            <p>Manuscrit relatant la mission du marquis de Saint Chamont en tant
+                                qu'ambassadeur extraordinaire en cour de Rome durant la seconde
+                                moitiée de l'année 1644. Les évènements qui se déroulent alors à
+                                Rome, à commencer par la mort du pape Urbain VIII, sont relatés. Il
+                                est aussi fait état des rencontres et discussions du marquis avec
+                                les cardinaux présents à Rome à l'occasion du conclave qui élira
+                                Innocent X.</p>
+                        </summary>
+
+                        <msItem xml:id="NegociationsSaintChamont">
+                            <locus from="1" to="167">Pages 1 à 167</locus>
+                            <respStmt>
+                                <resp>Auteur</resp>
+                                <name>
+                                    <persName xml:id="Ambassadeur">Saint Chamont</persName>
+                                    <certainty target="#Ambassadeur" locus="value" degree="0.7">
+                                        <desc>Le titre indique que ce manuscrit a été rédigé à
+                                            partir des originaux de l'ambassadeur Saint-Chamont au
+                                            roi ou à ses ministres. Ce manuscrit a donc
+                                            vraisemblablement été rédigé par l'ambassadeur ou son
+                                            secrétaire. L'utilisation de la première personne du
+                                            singulier dans la dernière partie correspondant aux
+                                            justifications de l'ambassadeur peut également
+                                            corroborer cette hypothèse. </desc>
+                                    </certainty>
+                                </name>
+                            </respStmt>
+                            <msItem>
+                                <locus from="18" to="37">Pages 18 à 37</locus>
+                                <author ref="#Ambassadeur">Saint Chamont</author>
+                                <title>29e juillet 1644</title>
+                                <textLang mainLang="fre">Français</textLang>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Papier.</support>
+                                <extent>
+                                    <width> 245mmx</width>
+                                    <height>348mm.</height>
+                                </extent>
+                                <foliation> 5 feuillets</foliation>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="23 25">Chaque page se compose
+                                    d'une colonne unique, elle-même composée d'un nombre de lignes
+                                    plutôt stable, variant entre 23 et 25.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+
+                        <handDesc hands="1">
+                            <handNote scribeRef="#Ambassadeur" corresp="#NegociationsSaintChamont">
+                                <p>La relation des négociations du marquis de Saint Chamont au cours
+                                    de l'année 1644 est rédigée d'une seule main. Le récit est
+                                    ponctué de copies de lettres, de discours ou de mémoire.</p>
+                            </handNote>
+                        </handDesc>
+
+                        <scriptDesc>
+                            <scriptNote>Écriture manuscrite, régulière et appliquée.</scriptNote>
+                        </scriptDesc>
+
+                        <bindingDesc>
+                            <binding>
+                                <decoNote>Reliure veau.</decoNote>
+                                <decoNote type="contreplats"> Contreplats de papier.</decoNote>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <p>Le manuscrit a probablement été rédigé au cours ou peu après
+                                l'ambassade du marquis de Saint Chamont en cour de Rome, auprès
+                                d'Urbain VIII puis auprès d'Innocent X.</p>
+                            <p>Le manuscrit a donc sans douté été rédigé entre Rome et Paris dans la
+                                seconde moitié des années 1640.</p>
+                        </origin>
+                        <provenance>
+                            <p>Ce manuscrit a appartenu à Pierre Séguier (1588-1672), chancelier à
+                                partir de 1635 puis à Henri-Charles du Cambout de Coislin
+                                (1665-1732).</p>
+                        </provenance>
+                        <acquisition>
+                            <p>Le manuscrit entre dans les collections de la Bibliothèque nationale
+                                en 1793.</p>
+                        </acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="Albornoz" role="factionesp">
+                        <persName>Gil Carrillo de Albornoz</persName>
+                        <note>Gil Carrillo de Albornoz (1579-1649), né à Talavera de la Reina,
+                            cardinal en 1627. Il est le cardinal protecteur des affaires de
+                            l'Espagne en Cour de Rome entre 1632 et 1645. Au cours du conclave de
+                            1644, il porte la candidature du cardinal Pamphilio et l'exclusion
+                            contre le cardinal Sacchetti (candidat de la France).</note>
+                    </person>
+                    <person xml:id="Antoine" role="factionfr">
+                        <persName>Antonio Barberini</persName>
+                        <note>Antonio Barberini (1607-1671), né à Rome en 1607, neveu du pape Urbain
+                            VIII, cardinal en 1627. Il est le cardinal chargé de la protection des
+                            affaires françaises à Rome.</note>
+                    </person>
+                    <person xml:id="Barberin" role="cardinal">
+                        <persName>Francesco Barberini</persName>
+                        <note>Francesco Barberini (1597-1679), né à Florence en 1597, neveu du pape
+                            Urbain VIII, cardinal en 1623. Il réussi à convaincre son frère de ne
+                            pas suivre les instructions françaises et de soutenir la candidature de
+                            Pamphilio dans le but de ne pas placer la famille Barberini dans de
+                            mauvaises dispositions vis à vis du futur pape.</note>
+                    </person>
+                    <person xml:id="Pape" role="pape">
+                        <persName>Maffeo Barberin</persName>
+                        <note>Maffeo Barberini (1568-1644), né à Florence en 1568, pape sous le nom
+                            d'Urbain VIII en 1623.</note>
+                    </person>
+                    <person xml:id="Thadeo" role="prefet">
+                        <persName>Taddeo Barberini</persName>
+                        <note>Taddeo Barberini (1603-1647), neveu du pape Urbain VIII, préfet de
+                            Rome.</note>
+                    </person>
+                    <person xml:id="Bichi" role="factionfr">
+                        <persName>Alessandro Bichi</persName>
+                        <note>Alessandro Bichi (1596-1657), né à Sienne, cardinal en 1633. Proche de
+                            Mazarin, il est l'un des membres les plus importants de la faction
+                            française à Rome. Il deviendra ensuite co-protecteur des affaires
+                            françaises aux côtés du cardinal Rinaldo d'Este. </note>
+                    </person>
+                    <person xml:id="Capponi">
+                        <persName>Luigi Capponi</persName>
+                        <note>Luigi Capponi (1583-1659), né à Florence, cardinal en 1608.</note>
+                    </person>
+                    <person xml:id="Chamont" role="factionfr">
+                        <persName>Melchior Mitte de Chevrières</persName>
+                        <note>Melchior Mitte de Chevrières (1586-1649), marquis de Saint-Chamont,
+                            ambassadeur extraordinaire pour le roi de France auprès du pape en
+                            1644.</note>
+                    </person>
+                    <person xml:id="Colonna" role="factionesp">
+                        <persName>Colonna</persName>
+                        <note>Girolamo Colonna (1604-1666), né à Orsogna, cardinal en 1627. À la
+                            mort de son père, Filippo I Colonna, en 1639, il hérite de ses titres et
+                            terres car son frère, Marcantonio V Colonna, est mineur. Il est aussi le
+                            protecteur des affaires du Saint Empire romain germanique en cour de
+                            Rome.</note>
+                    </person>
+                    <person xml:id="Gallicano">
+                        <persName>Pompeo Colonna</persName>
+                        <note>Pompeo Colonna (-1661), fils de Lucrezia Tuttavilla et de Pier
+                            Francesco Colonna, issu de la branche Zagarolo, il porte le titre de
+                            prince de Gallicano.</note>
+                    </person>
+                    <person xml:id="Empereur">
+                        <persName>Ferdinand III de Habsbourg</persName>
+                        <note>Ferdinand III de Habsbourg (1608-1657), empereur du Saint Empire en
+                            1637.</note>
+                    </person>
+                    <person xml:id="Harrach">
+                        <persName>Ernst Adalbert von Harrach</persName>
+                        <note>Ernst Adalbert von Harrach (1598-1667), né à Vienne, cardinal en 1626.
+                        </note>
+                    </person>
+                    <person xml:id="Lante">
+                        <persName>Marcello Lante della Rovere</persName>
+                        <note>Marcello Lante della Rovere (1569-1652), né à Rome, cardinal en 1606.
+                            Il est le doyen du Collège des cardinaux à partir de 1641. </note>
+                    </person>
+                    <person xml:id="Roi">
+                        <persName>Louis XIV</persName>
+                        <note>Louis XIV (1638-1715), roi de France en 1642.</note>
+                    </person>
+                    <person xml:id="Martinozzi">
+                        <persName>Geronimo Martinozzi</persName>
+                        <note>Geronimo Martinozzi (1610-1680), comte Martinozzi, il épouse en 1634
+                            Laura Margherita Mazzarini, sœur de Mazarin.</note>
+                    </person>
+                    <person xml:id="Medicis">
+                        <persName>Carlo de' Medici</persName>
+                        <note>Carlo de' Medici (1595-1666), né à Florence, frère de Cosimo II de'
+                            Medici, grand duc de Toscane, cardinal en 1615. Membre de la faction
+                            espagnole au cours du conclave de 1644, il s'agit avant tout pour la
+                            famille de Medici de s'opposer aux volontés de la famille
+                            Barberini.</note>
+                    </person>
+                    <person xml:id="GrandDuc">
+                        <persName>Ferdinando II de' Medici</persName>
+                        <note>Ferdinando II de' Medici (1610-1670), né à Florence, Grand Duc de
+                            Toscane en 1621. Fils du Grand Duc Cosimo II de'Medici et neveu du
+                            cardinal Carlo de' Medici.</note>
+                    </person>
+                    <person xml:id="Montalto">
+                        <persName>Francesco Peretti di Montalto</persName>
+                        <note>Francesco Peretti di Montalto (1595-1655), né à Rome, cardinal en
+                            1641.</note>
+                    </person>
+                    <person xml:id="Pamphilio">
+                        <persName>Giovanni Battista Pamphili</persName>
+                        <note>Giovanni Battista Pamphili (1574-1655), né à Rome, pape sous le nom
+                            d'Innocent X en 1644. Candidat porté par la faction espagnole au cours
+                            du conclave de 1644, l'instruction de Mazarin pour porter l'exclusion
+                            contre lui parvient trop tard à Rome et c'est donc le candidat de
+                            l'Espagne qui succède à Urbain VIII.</note>
+                    </person>
+                    <person xml:id="Lyon">
+                        <persName>Alphonse-Louis du Plessis de Richelieu</persName>
+                        <note>Alphonse-Louis du Plessis de Richelieu (1582-1653), cardinal en 1629.
+                            Frère aîné d'Armand Jean du Plessis de Richelieu, cardinal de Richelieu
+                            et principal ministre de Louis XIII. Il appartient donc assez
+                            naturellement à la faction française en Cour de Rome.</note>
+                    </person>
+                    <person xml:id="SaintSiege">
+                        <persName>Saint Siège</persName>
+                        <note>Entité politique faisant référence au gouvernement de Rome et des
+                            États pontificaux par le pape.</note>
+                    </person>
+                    <person xml:id="Savelli">
+                        <persName>Federico Savelli</persName>
+                        <note>Federico Savelli (1583-1649), commandant militaire pour le compte de
+                            l'Empereur au cours de la Guerre de Trente ans, il est aussi ambassadeur
+                            de celui-ci en Cour de Rome dans les années 1620 puis entre 1642 et
+                            1649.</note>
+                    </person>
+                    <person xml:id="Savoie">
+                        <persName>Christine de France</persName>
+                        <note>Christine de France (1606-1663), né à Paris, fille d'Henri IV et de
+                            Marie de Médicis, sœur de Louis XIII. Elle épouse Victor-Amédée Ier de
+                            Savoie en 1630 et devient duchesse de Savoie. Elle est régente de ce
+                            duché de 1637 à 1648.</note>
+                    </person>
+                    <person xml:id="Spada">
+                        <persName>Bernardino Spada</persName>
+                        <note>Bernardino Spada (1594-1644), né à Brisighella, cardinal en 1626. En
+                            1644, il apparaît comme le seul candidat en mesure de satisfaire à la
+                            fois la faction française et la faction espagnole pour la succession
+                            d'Urbain VIII mais il meurt à Rome quelques jours avant la fin du
+                            conclave.</note>
+                    </person>
+                    <person xml:id="Spinola">
+                        <persName>Giovanni Domenico Spinola</persName>
+                        <note>Giovanni Domenico Spinola (1580-1646), né à Gênes, cardinal en 1626.
+                            Il apparaît comme l'un des possibles successeurs d'Urbain VIII en 1644
+                            mais ses origines génoises n'ont pas joué en sa faveur. </note>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="Montecavallo">
+                        <placeName>Montecavallo</placeName>
+                        <note>Palais romain dont la construction débute en 1574, il s'agit de l'une
+                            des résidences papale jusqu'à le fin du XIXe siècle.</note>
+                    </place>
+                    <place xml:id="PalaisAntoine">
+                        <placeName>Palais du Cardinal Antoine</placeName>
+                        <note>Le palais Barberini, situé à Rome, est une commande d'Urbain VIII dont
+                            la construction débute en 1627 et s"achève en 1633. </note>
+                    </place>
+                    <place xml:id="PalaisSaintChamont">
+                        <placeName>Palais de l'ambassadeur Saint Chamont</placeName>
+                        <note>Résidence de l'ambassadeur du roi de France en cour de Rome.</note>
+                    </place>
+                    <place xml:id="PalaisSaintPierre">
+                        <placeName>Palais de Saint Pierre</placeName>
+                        <note>Actuel Palais du Vatican dont la construction a débuté en 1589.
+                            Nombreux sont les papes qui ont fait procéder à des travaux, c'est
+                            notamment le cas d'Urbain VIII. Il s'agit de l'une des résidences des
+                            papes depuis la fin du XIVe siècle.fca</note>
+                    </place>
+                    <place xml:id="Rome">
+                        <placeName>Rome</placeName>
+                        <note>Lieu de résidence du pape et de réunion des cardinaux en conclave.
+                            C'est aussi à Rome que les souverains européens envoient leurs
+                            ambassadeurs auprès du pape.</note>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text type="edition">
+        <body>
+            <div type="section">
+                <head>29<hi rend="position(combsup)">e</hi> &Jj;uillet 1644</head>
+                <p>
+                    <lb/>Aussyt&osô;t que le <persName ref="#Pape">Pape</persName> fut
+                    mort&virgule;<lb/> le <persName ref="#Antoine">cardinal Antoine</persName> en a&suppd;vertit le
+                    
+                    <pb n="19"/>
+                    <lb/><persName ref="#Chamont">marquis de Saint Chamont</persName> par un billet, qui<lb/> port&oa;it
+                    ass&suppe;urance de son service pour<lb/>
+                    <persName ref="#Roi">Sa Ma&ij;esté</persName>, et lu&yi; manda par le<lb/>
+                    <persName ref="Martinozzi">sieur
+                        Martinozzi </persName> &quil;
+                    verr&oa;it son &Ii;nstruction<lb/> quand il le desirer&oa;it. &cC;ela fit
+                    qu’il l’alla<lb/> trouver aussit&osô;t, tant pour la lu&yi; porter<lb/> que
+                    pour se condouloir avec lu&yi;, et le pria<lb/> de lu&yi; donner heure pour
+                    assembler les<lb/> &Cc;ardinaux de <persName ref="#Lyon">Lyon</persName> et
+                        <persName ref="#Bichi">Bichi</persName>, ce qu’il<lb/> fit pour l’apr&è;s
+                    &diner;. &lL;es &Eé;minences et<lb/>
+                    <persName ref="#Chamont">cet ambassadeur</persName>&virgule; s’&esé;tant
+                    rendus au &Pp;alais<lb/> du <persName ref="#Antoine">cardinal Antoine</persName>&virgule; jur&è;rent
+                    tous de<lb/> ne rien découvrir de ce qui &esé;t&oa;it contenu<lb/> dans leur
+                    instruction que par le consentement<lb/> de tous quatre. &lL;e pa&suppc;quet
+                    ouvert<lb/> le <persName ref="#Antoine">cardinal Antoine</persName> l&eû;t ce
+                    qu&apos;il conten&oa;it,<lb/> et demeura tr&è;s satisfait des marques de <lb/> la
+                    confiance que le <persName ref="#Roi">Roy</persName> tesmoign&oa;it
+                    prendre<lb/> en sa personne ; &Ll;e <persName ref="#Bichi"> cardinal
+                        Bichi</persName><lb/> lu&yi; dit qu&apos;il ne le voul&oa;it que seconder
+                    en<lb/> ses bonnes intentions pour lu&yi; procurer <lb/> l’honneur d’avoir
+                    serv&yi; le <persName ref="#Roi">Roy</persName>, et qu’il<lb/> se
+                    content&oa;it de celu&yi; de servir <persName ref="#Antoine">son
+                        Eminence</persName>,<lb/> et lu&yi; t&esé;moigner sa gratitude<lb/>
+                    et sa reconnaissance, des obligations
+                    
+                    <pb n="20"/>
+                    <lb/> qu&apos;il lu&yi; av&oa;it ; et le <persName ref="#Lyon"
+                        >cardinal de Lyon</persName><lb/> lu&yi; ayant dit la meme chose, il <lb/>
+                    t&esé;moigna grande satisfaction, dit qu&apos;il ne <lb/>y trouv&oa;it pas
+                    beaucoup de difficulté &à; <lb/> l’exclusion du <persName ref="#Pamphilio"
+                            >cardinal Pamphilio</persName> ; mais le <lb/>
+                    <persName ref="#Chamont">marquis de Saint Chamont</persName> l’ayant
+                    prié <lb/> qu&apos;il p&usû;t conf&é;rer en particulier avec <lb/> lu&yi; des
+                    su&ij;ets qui ser&oa;ient les plus dignes <lb/> d’&esê;tre
+                    &esé;lev&ezés; au &Pp;apat, il lu&yi; t&esé;moigna<lb/> qu’il le
+                    desir&oa;it, et le plus souv&ae;nt qu&apos;il<lb/> pourr&oa;it.
+                </p>
+                <p> <lb/>Apr&è;s cette conférence le <persName ref="#Chamont">marquis de Saint Chamont</persName>
+                    <lb/> fut chez le <persName ref="#Barberin">cardinal Barberin</persName>
+                    <lb/> lu&yi; rendre les offices de condol&é;ances, o&ù; il <lb/> trouva tous les
+                    &Cc;ardinaux qui y &esé;t&oa;ient <lb/> pour le meme su&ij;et ; et
+                    parce&espace; que cet<lb/> <persName ref="#Chamont">ambassadeur</persName>
+                    av&oa;it &esé;té a&suppd;vert&yi; en chemin que <lb/> le <persName
+                        ref="#Montalto">cardinal de
+                        Montalto</persName> dev&oa;it le l&ae;ndemain <lb/> &à; la premiere
+                    congregation presenter une <lb/> lettre du <persName ref="#GrandDuc">grand
+                        duc</persName>, et declarer de sa part <lb/> que le <persName ref="#Medicis"
+                        >cardinal de Medicis</persName> ne pouv&oa;it <lb/> aller en
+                    s&eû;reté &à;a <placeName ref="#Rome">Rome</placeName>, tant que le <lb/>
+                    commandement des armes ser&oa;it entre les <lb/> mains de <persName
+                        ref="#Thadeo">dom Thadée Barberin</persName> son <lb/> ennem&yi;, et
+                    qu&apos;il av&oa;it charge de prier le
+                    <pb n="21"/> 
+                    <lb/>&sS;acré &College;olege de faire un autre &general; <lb/> de la
+                    &Sainte; &É;glise, ou d’agréer qu’il entra&suppst; <lb/> &à; <placeName
+                        ref="#Rome">Rome</placeName> avec des gens de guerre, et qu&apos;il <lb/>
+                    protesta&suppst; de la nulité du conclave, et &que;
+                    <lb/> l’<persName ref="#Savelli">ambassadeur</persName> de l’<persName ref="#Empereur"
+                            >empereur</persName> voul&oa;it faire <lb/> le m&ê;me office
+                    au nom de son ma&isî;tre ; Il <lb/> en donna avis au <persName ref="#Barberin"
+                            >cardinal Barberin</persName>, et apres <lb/> lu&yi; avoir fait conn&oa;&isî;tre la
+                    mauvaise <lb/> volonté des Espagnols contre sa maison, <lb/> puisque le
+                        <persName ref="#Montalto">cardinal de Montalto</persName> s’&esé;t&oa;it chargé <lb/> de cette
+                    commission, &Ii;l lu&yi; offrit son service, <lb/> et l’assistance de tous les
+                    franç&oa;is. &mM;ais <lb/> cette &Eé;minence demeura tellement <lb/>
+                    surprise&virgule; n’&esé;tant pas acco&usû;tumée &à; de <lb/> semblables
+                    rencontres qu&apos;il ne &sc;av&oa;it que r&esé;pondre. <lb/> &lL;e
+                        <persName ref="#Antoine">cardinal Antoine</persName> arrivant là dessus, <lb/> pria le <persName
+                        ref="#Chamont">marquis de Saint Chamont</persName> d’avertir <lb/> tous les &Cc;ardinaux franç&oa;is, afin
+                    qu’il&zs; <lb/> ne l’abandonnassent point en cette premiere <lb/> occasion, et
+                    lu&yi; demande s’il av&oa;it retenu <lb/> les deux regimen&addt;s franc&oa;is qui
+                    av&oa;ient &esé;té <lb/> licen&tc;i&ézés;, comme les Espagnols en faisaient <lb/>
+                    courir le bruit. Il lassera qu’au contraire <lb/>
+                    <del>que</del> il les av&oa;it press&ezés; de s’embarquer pour <lb/>
+                    retourner en &fF;rance, et le pria d’ass&suppe;urer la 
+                    
+                    <pb n="22"/> 
+                    <lb/>&Congregation; qu&apos;il con&ij;edier&oa;it les soldats <lb/> &quil;q.l av&oa;it pris pour
+                    la garde de son <placeName ref="#PalaisSaintChamont">palais</placeName>,
+                    <lb/> et qu’il y demeurer&oa;it avec son train <lb/> &ordinaire;ord.re, si tous
+                    les autres ambassadeurs en <lb/> voul&oa;ient faire de m&ê;me, pour
+                    t&esé;moigner <lb/> combien il desir&oa;it la liberté du &Cc;onclave ; <lb/>
+                    mais que l’on dev&oa;it prendre garde au <persName ref="#Colonna"><lb/>
+                        conn&esé;table Colonne</persName>, <persName ref="#Gallicano">au
+                        prince Gallicano</persName>, <lb/> au duc Ceccan, et aux autres de la
+                    faction <lb/> &Ee;spagnol&suppl;e, qui a&uv;ir&oa;ient &à; Rome tous <lb/>
+                    les Bandit&zs; de Naples, et une si grande <lb/> quantité de soldats,
+                    qu&apost;il y en av&oa;it d&esé;&ij;a <lb/> plus de deux mille dans la
+                    ville, et qu&apos;il y <lb/> en arriv&oa;it &à; tout&suppt;e heure. 
+                </p>
+                <p> <lb/>Le samed&yi; 30.<hi rend="position(combsup)">e</hi> du mois de &Jj;uillet,
+                    trente <lb/> neuf &Cc;ardinaux entrerent en la &congregation; <lb/>
+                    laquelle dura six heures, et o&ù; l’on m&isî;t en <lb/> d&é;lib&é;ration si l’on
+                    tiendr&oa;it le &Cc;onclave &à; <lb/> <placeName ref="#Montecavallo">Monte Cavallo</placeName>, au Jesus, ou au Palais
+                    <lb/> de &Saint;St Pierre, &à; l’ordinaire,
+                    &à; cause des <lb/> extra&ordinaires; chaleurs ; et il fut r&é;solu
+                    qu&apos;il fall&oa;it <lb/> suivre la coutume, mais que l’on accroistr&oa;it
+                    <lb/> le conclave d’un a&addp;partement ; et le soin en <lb/> fut donné pour le
+                    faire aux &Cc;ardinaux <lb/>
+                    <persName ref="#Capponi">Capponi</persName>, <persName ref="#Spada"
+                        >Spada</persName>, et <persName ref="#Spinola">Sancta Cecilia</persName>.
+                    &cC;o&addm;e 
+                    
+                    <pb n="23"/> 
+                    <lb/>ils &esé;t&oa;ient assembl&ézés; le <persName ref="#Savelli"
+                        >duc Savelli</persName> &virgule; <lb/> &Aa;mbassadeur de l’<persName ref="#Empereur"
+                            >Empereur</persName> &virgule; leur fit <lb/> dire qu&apost;il
+                    &esé;t&oa;it venu au &Pp;alais pour leur <lb/> communiquer des choses
+                    &Ii;mportantes <lb/> &à; l’avantage du &Saint; Siege, et demanda <lb/>
+                    d’&esê;tre ou&yi; ; &Ll;es &Cc;ardinaux lu&yi; firent <lb/> dire que ce
+                    n’&esé;t&oa;it pas la coutume de <lb/> donner audience &à; personne en cette
+                    <lb/> premi&è;re assemblée, qui &esé;t&oa;it destinée <lb/> pour pourvoir
+                    aux officiers, et lu&yi; offrirent <lb/> de la lu&yi; donner le l&ae;ndemain,
+                    ce <lb/> qu&apos;il accepta. &eE;nsuit&suppt;e de quo&yi; le <persName
+                        ref="#Montalto">cardinal Montalto</persName>
+                    <lb/> exposa la commission qu&apos;il <lb/> av&oa;it du <persName
+                        ref="#GrandDuc">grand &Dd;uc</persName>, sans
+                    tout&suppt;e&supps;&espacesuppr;fois <lb/> vouloir rendre sa lettre ; &Ll;es
+                    &Cc;ardinaux <lb/>
+                    <persName ref="#Albornoz">Albarnoz de la Cueux</persName>, et <persName
+                        ref="#Harrach">d’Harac</persName> furent <lb/> seuls de son avis ; tous les
+                    autres confirmerent <lb/>
+                    <persName ref="#Thadeo">dom Thadée</persName> en sa &Cc;harge <lb/> de
+                    &Gg;&é;n&é;ral de &Sainte; Eglise, et on lu&yi; en fit <lb/>
+                    auss&yi;t&osô;t pr&esê;ter le serment. &lL;es Espagnols&virgule; <lb/> voyan&st;&supps; que
+                    leur pratique &esé;tant &Ii;nutil&suppl;e&virgule; <lb/> demand&è;rent qu’au moins on
+                    chercha&suppst; <lb/> quelque temp&é;remment pour la
+                        &satisfaction;
+                    <lb/> du <persName ref="#GrandDuc">grand duc</persName>, et que l’on
+                    remedia&suppst; &à; tant 
+                    
+                    <pb n="24"/> 
+                    <lb/>de gens de guerre, dont chacun se <lb/> pr&é;cautionn&oa;it &à;
+                    Rome, et ils furent <lb/> commis tous quatre avec les &Cc;hefs <lb/> d’ordres,
+                    &sc;avoir le <persName ref="#Lante">cardinal Lenty</persName> doyen, <lb/> &Ll;e
+                    <persName ref="#Capponi">cardinal Caponi</persName> premier
+                    &Pp;Pr&esê;tre, <lb/> et le <persName ref="#Barberin">cardinal Barberin</persName> premier diacre,
+                    <lb/> &à; qui on a&suppd;&ij;ou&supps;ta le <persName ref="#Antoine"
+                        >cardinal Antoine</persName>
+                    pour <lb/> y pourvoir. &aA;pr&è;s cela&virgule; on confirma le <lb/> gouverneur de
+                    Rome, et le <persName ref="#Bonuisi">sieur Bonuisi</persName>
+                    <lb/> fut fait clerc de la Chambre et gouverneur<lb/> du conclave et du Bourg.
+                    
+                </p>
+                <p> <lb/>Cependant&virgule; on ne voyait qu’assa&adds;inat&zs; <lb/> parm&yi; les rues, et dans les
+                    &Eé;glises <lb/> m&éê;mes ; et le <persName ref="#Cesarin">sieur Cesarin</persName> le pr&é;lat
+                        <del>en</del> fit <lb/> courir grande fortune au <persName ref="#Spada"
+                            >sieur Spada </persName>qui <lb/> av&oa;it &esé;té secretaire d’&EsÉ;tat.
+                    </p>
+                <p> <lb/>Le 31.e du m&éê;me mois la &congregation;
+                    <lb/> tenant&virgule; on donna l’audience &à; <persName ref="#Savelli">l’ambas
+                        <lb/> sadeur</persName> de l’<persName ref="#Empereur">Empereur</persName>,
+                    qui ne toucha que <lb/> couvertement la pr&é;ten&st;ion du <persName
+                        ref="#Medicis">cardinal
+                        <lb/> de Medicis</persName>, et se restraignit &à; l’offre <lb/>
+                    acco&usû;tumée de l’assistance de son ma&isî;tre <lb/> pour la liberté du
+                    &Cc;onclave.
+                </p>
+                <p> <lb/>Le méme &Jj;our le &Mm;arquis de 
+                    
+                        <pb n="25"/> 
+                    <lb/><persName ref="#Chamont">Saint Chamont</persName> se retirant sur les <lb/> neuf heures
+                    du soir en son <placeName ref="#PalaisSaintChamont">palais</placeName>, il y
+                    <lb/> trouva un &Pp;r&é;lat qui le pria de la part du <lb/>
+                    <persName ref="#Antoine">cardinal
+                        Antoine</persName> de vouloir prendre la <lb/> peine de le voir ce m&éê;me soir
+                    là, et qu&apos;il <lb/> l’attendr&oa;it dans la &Cc;hancellerie. Il s’y <lb/>
+                    en alla, et <persName ref="#Antoine">cette éminence</persName> lu&yi; donna
+                    part <lb/> des exp&é;dients que la &congregation; av&oa;it trouv&ézés; <lb/> pour la
+                    satisfaction du <persName ref="#Medicis">cardinal de M&é;dicis</persName>
+                    <lb/> qui se resoudoient &à; trois ; &Ll;e premier &que; <lb/> le &sS;acré
+                    &College; lu&yi; donner&oa;it s&eû;reté <lb/> par &esé;crit
+                    qu&apos;il ne serait rien entrepris <lb/>
+                    <del/> dans Rome contre sa personne ; <lb/> &Ll;e second que l’on nommer&oa;it
+                    deux <lb/> &Cc;ardinaux, lesquel&zs; aur&oa;ient tout&suppt;e <lb/> autorité
+                    sur le pr&é;f&suppf;e&suppc;t ; &Ee;t le troisieme <lb/> que l’on fer&oa;it
+                    un &Ll;ieutenant &independant;
+                    <lb/> &dudit; prefe&suppc;t, auquel on donner&oa;it tout&suppt;e <lb/>
+                    autorité sur les armes ; qu&apos;il consentir&oa;it <lb/> &Vv;olontiers aux
+                    deux premiers, mais que <lb/> si on le press&oa;it sur le troisieme, &Ii;l
+                    voul&oa;it <lb/> repr&é;senter au Sacré College que le <lb/>
+                    <persName ref="#Savelli">Prince Savelli</persName> qui av&oa;it de
+                    tout&suppt;e <lb/> ancienneté dans sa Maison la garde <lb/> du &Cc;onclave
+                    comme &Mm;ar&esé;chal de Rome 
+                    <pb n="26"/> 
+                    <lb/>de Rome, ne lu&yi; &esé;t&oa;it pas moins <lb/> suspect,
+                    puisqu&apos;il &esé;t&oa;it de faction &Ee;spagnol&suppl;e, <lb/> que le
+                         &Pp;r&é;fe&suppc;t au <persName
+                        ref="#Medicis">cardinal de
+                        Medicis</persName> ; et <lb/> pariant qu’il demander&oa;it qu’on lu&yi;
+                    &osô;t&asâ;t <lb/> cette charge pour cette fois seulement, ou <lb/> qu’on
+                    lu&yi; donn&asâ;t un &Ll;ieutenant &Ii;ndependant, <lb/>ou que l’on
+                    deput&asâ;t deux &Cc;ardinaux <lb/> sur lu&yi;, et que la chose
+                    &esé;t&oa;it pareille ; ne <lb/> devant pas avoir moins de credit comme <lb/>
+                    protecteur de France, que <persName ref="#Medicis">Médicis</persName> qui
+                    <lb/> l’&esé;t&oa;it d’Espagne ; qu’autrement &Ii;l<lb/> protester&oa;it de
+                    nulité du &Cc;onclave, et qu’il <lb/> l’ir&oa;it tenir hors de Rome avec ses
+                    amis <lb/> en lieu libre ; mais avant que d’en faire <lb/> la proposition il
+                    desir&oa;it &esê;tre assur&é; &quil;<lb/> ser&oa;it assisté des voeux
+                    des &Cc;ardinaux <lb/> franç&oa;is, et pria le <persName ref="#Chamont"
+                            >sieur de Saint
+                        Chamont</persName>
+                    <lb/> de leur en parler, et de les convier d’aller le <lb/> l&ae;ndemain de
+                    bonne heure &à; la &Cc;hapelle <lb/> et de le voir dans son apartement de
+                        &Saint;
+                    <lb/> Pierre, o&ù; il les attendr&oa;it. 
+                </p>
+                <p> <lb/>Le <persName ref="#Chamont">marquis de Saint Chamont</persName> alla <lb/> &Ii;ncontinant donner part de ce
+                    discours <lb/> au <persName ref="#Bichi">cardinal Bichi</persName>, et r&é;solurent
+                    ensemble <lb/> qu&apos;il fall&oa;it t&esé;moigner grande affection 
+                    
+                    <pb n="27"/> 
+                    <lb/>au <persName ref="#Antoine">cardinal Antoine</persName> en
+                    cette occasion, <lb/> et n&é;an&suppt;moins se faire val&suppl;oir auprès de <lb/> lu&yi;, et
+                    essayer de le divertir de cette r&é;solution, <lb/> et le convaincre par les
+                    raisons qui le <lb/> dev&oa;ient dissuader ; ensuit&suppt;e de quo&yi; ayant
+                    <lb/> fait &sc;avoir la m&éê;me chose au <persName ref="#Lyon">cardinal <lb/>
+                        de Lyon</persName>, ils le virent le <hi rend="position(combsup"
+                        >lendemain</hi> matin, et le <persName ref="#Antoine">cardinal
+                        <lb/> Antoine</persName> demeura fort satisfait de sa conf&é;rence <lb/>
+                    avec les &Cc;ardinaux franç&oa;is. 
+                </p>
+                <p> <lb/>Apr&è;s cela ils se rendirent &à; la congr&é;gation <lb/> o&ù; les deux
+                    premiers exp&é;diens concernant<lb/> le <persName ref="#Medicis">cardinal de
+                        Medicis</persName> pass&è;rent &à; la <lb/> pluralité des voix et le
+                    troisi&è;me fut <lb/> enti&è;rement re&ij;etté ; ce qui emp&esê;cha le
+                        <persName ref="#Antoine">cardinal
+                        <lb/> Antoine</persName> de ne point faire la proposition <lb/> qu&apos;il
+                    av&oa;it premeditée.
+                </p>
+                <p> <lb/>On resolut ensuit&suppt;e en cette &congregation; <lb/> que l’on
+                    congedir&oa;it tous les soldats qui &esé;t&oa;ient <lb/> &à; <placeName ref="#Rome">Rome</placeName>, &à; la
+                    r&é;serve de vingt cinq pour <lb/> la garde des logis de chacun des &Cc;ardinaux,
+                    <lb/> &Aa;mbassadeurs, et &Pp;rinces &Rr;omains ; et <lb/> que le <persName
+                        ref="#Chamont">marquis de Saint Chamont</persName> ser&oa;it <lb/> prié par le <persName ref="#Antoine"
+                        >cardinal Antoine</persName> d’y consentir ; <lb/> ce q&apos;uil accorda fort
+                    librement.
+                </p>
+                <p> <lb/>Le m&éê;me &Jj;our cet ambassadeur fut 
+                    
+                    <pb n="28"/> 
+                    <lb/>admis &à; l’audi&ae;nce sur la fin de cette <lb/> congr&é;gation,
+                    o&ù; il remontra aux &cardinaux; <lb/> l’obligation qu&apos;ils
+                    av&oa;ient de se d&é;pouiller <lb/> de tout&suppt;e passion pour faire un bon
+                    &Pp;ape, <lb/> et leur offrit la protection de <persName ref="#Roi">Sa Majesté</persName>
+                    <lb/> en termes fort agr&é;ables. 
+                </p>
+
+            </div>
+        </body>
+    </text>
+</TEI>
